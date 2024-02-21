@@ -2,7 +2,7 @@
 
 ## Tecnologias
 
-- [JaavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - [Bootstrap](https://getbootstrap.com/)
