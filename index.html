@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/1cfac9386a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Domo App</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"
+            ><img class="img-logo" src="assets/img/coders.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="/"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#trabajos">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="img-hero">
+          <div id="hero-desc" class="container opacity">
+            <div class="row">
+              <div class="col-sm-12 col-md-10 col-lg-10">
+                <h1>
+                  Hola, Bienvenido a DOMO.<br />
+                  Convertimos tus ideas en realidad digital.
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae eius vero libero reprehenderit, velit non eligendi
+                  provident explicabo fuga voluptas eum assumenda ullam omnis,
+                  enim harum? Magnam ab adipisci autem accusamus aspernatur
+                  laborum quas! Autem reiciendis temporibus impedit at
+                  consectetur id fuga ut sapiente quis est, facere
+                  necessitatibus tenetur rerum velit pariatur quod omnis
+                  nesciunt ratione possimus ab dolore? Saepe, sed corporis
+                  recusandae voluptates ducimus similique tempore nostrum
+                  dolores doloremque sequi temporibus eius aut unde, aliquam
+                  quisquam ab repellendus nobis provident nulla natus velit sint
+                  adipisci ipsa? At, doloremque veritatis! Minima sapiente
+                  consectetur, quos distinctio rerum natus aperiam odit
+                  molestiae.
+                </p>
+                <a class="btn-custom" href="#servicios">Conocer mas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="container-fluid">
+        <article id="servicios" class="row servicios">
+          <h3 class="text-center">Servicios</h3>
+
+          <div class="mb-3 col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Diseño web</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content...
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-bs-toggle="modal"
+                  data-bs-target="#disenioWeb"
+                >
+                  Mas
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="disenioWeb"
+                  tabindex="-1"
+                  aria-labelledby="disenioWebLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-modal">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="disenioWebLabel">
+                          Diseño web
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close bg-light"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Nuestro equipo de expertos en diseño se encargará de
+                          convertir tu visión en un sitio web elegante y
+                          atractivo que refleje la esencia de tu marca.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3 col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Desarrollo web</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content...
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-bs-toggle="modal"
+                  data-bs-target="#desarrolloWebModal"
+                >
+                  Mas
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="desarrolloWebModal"
+                  tabindex="-1"
+                  aria-labelledby="desarrolloWebLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-modal">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="desarrollo">
+                          Desarrollo web
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close bg-light"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Potenciamos tu presencia en línea con un sitio web el
+                          cual podra adaptarse a las demandas del mundo digital
+                          actual. Nuestro equipo implementará las últimas
+                          tecnologías para asegurar un rendimiento excepcional.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3 col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Posicionamiento web</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content...
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-bs-toggle="modal"
+                  data-bs-target="#posicionamientoModal"
+                >
+                  Mas
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="posicionamientoModal"
+                  tabindex="-1"
+                  aria-labelledby="posicionamientoModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-modal">
+                      <div class="modal-header">
+                        <h1
+                          class="modal-title fs-5"
+                          id="posicionamientoModalLabel"
+                        >
+                          Posicionamiento web
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close bg-light"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Atrae a tu audiencia y destaca en los resultados de
+                          búsqueda. Nuestros expertos en SEO utilizarán
+                          estrategias probadas para mejorar tu visibilidad en
+                          línea y aumentar el tráfico cualificado hacia tu sitio
+                          web.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3 col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Optimizacion</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content...
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-bs-toggle="modal"
+                  data-bs-target="#optimizacionModal"
+                >
+                  Mas
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="optimizacionModal"
+                  tabindex="-1"
+                  aria-labelledby="optimizacionModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-modal">
+                      <div class="modal-header">
+                        <h1
+                          class="modal-title fs-5"
+                          id="optimizacionModalLabel"
+                        >
+                          Optimizacion
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close bg-light"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        Te ayudamos a conseguirás un informe completo con el
+                        estado de salud de tu web y una lista priorizada de
+                        errores, advertencias y avisos sobre sus problemas.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="trabajos" class="row trabajos">
+          <h3 class="text-center">Trabajos</h3>
+          <div class="mb-sm-3 mb-md-5 mb-lg-5 col-sm-12 col-md-6 col-lg-6">
+            <figure class="container-img">
+              <img src="assets/img/img1.jpg" alt="" />
+            </figure>
+          </div>
+          <div class="mb-sm-3 mb-md-5 mb-lg-5 col-sm-12 col-md-6 col-lg-6">
+            <h4>Construimos tu sitio web</h4>
+            <p>
+              En DOMO, nos enorgullece ofrecer soluciones a medida que reflejen
+              la esencia de tu marca. Trabajaremos estrechamente contigo para
+              comprender tus metas y objetivos, y luego nos pondremos manos a la
+              obra para crear un sitio web personalizado y atractivo. Desde el
+              diseño de la interfaz hasta la funcionalidad, nos aseguramos de
+              que cada detalle sea cuidadosamente considerado para ofrecer una
+              experiencia de usuario excepcional. Ya sea que necesites una
+              página web corporativa elegante, una tienda en línea intuitiva o
+              un portafolio impresionante, nos encargaremos de que tu sitio web
+              destaque. Nuestro enfoque se basa en la excelencia y la calidad.
+              ¡Permítenos crear la plataforma digital perfecta para que tu
+              negocio brille en el mundo en línea! Contáctanos hoy mismo y
+              comencemos a construir tu éxito en línea.
+            </p>
+          </div>
+          <div class="mb-sm-3 mb-md-5 mb-lg-5 col-sm-12 col-md-6 col-lg-6">
+            <h4>Construimos tu sitio web</h4>
+            <p>
+              En DOMO, nos enorgullece ofrecer soluciones a medida que reflejen
+              la esencia de tu marca. Trabajaremos estrechamente contigo para
+              comprender tus metas y objetivos, y luego nos pondremos manos a la
+              obra para crear un sitio web personalizado y atractivo. Desde el
+              diseño de la interfaz hasta la funcionalidad, nos aseguramos de
+              que cada detalle sea cuidadosamente considerado para ofrecer una
+              experiencia de usuario excepcional. Ya sea que necesites una
+              página web corporativa elegante, una tienda en línea intuitiva o
+              un portafolio impresionante, nos encargaremos de que tu sitio web
+              destaque. Nuestro enfoque se basa en la excelencia y la calidad.
+              ¡Permítenos crear la plataforma digital perfecta para que tu
+              negocio brille en el mundo en línea! Contáctanos hoy mismo y
+              comencemos a construir tu éxito en línea.
+            </p>
+          </div>
+          <div class="mb-sm-3 mb-md-5 mb-lg-5 col-sm-12 col-md-6 col-lg-6">
+            <figure class="container-img">
+              <img src="assets/img/img2.jpg" alt="" />
+            </figure>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <section class="container-fluid">
+        <article
+          id="contacto"
+          class="row contacto d-flex justify-content-center"
+        >
+          <h3 class="text-center mb-5">Contacto</h3>
+          <div class="col-sm-12 col-md-8 col-lg-8">
+            <form method="post" class="contact-form mb-sm-5 p-3" id="form">
+              <h4>Contactanos</h4>
+              <legend class="text-light">
+                Simulacion de envio de consulta
+              </legend>
+              <label class="form-label" for="nombre">Nombre</label>
+              <input
+                id="nombre"
+                class="mb-3 form-control"
+                type="text"
+                name="nombre"
+                placeholder="Tu nombre"
+                title="Este campo solo acepta letras y espacios"
+                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                required
+              />
+              <label class="form-label" for="email">Email</label>
+              <input
+                class="mb-3 form-control"
+                id="email"
+                type="email"
+                name="correo"
+                title="Introduce un correo valido"
+                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                placeholder="ejemplo@correo.com"
+                required
+              />
+              <label class="form-label" for="msj">Mensaje</label>
+              <textarea
+                class="form-control textarea"
+                id="msj"
+                name="comentarios"
+                cols="50"
+                rows="5"
+                data-pattern=" ^.{1,255}$"
+                title="El comentario no debe exceder los 255 caracteres"
+                placeholder="Consulta"
+                required
+              ></textarea>
+
+              <input
+                class="mt-4 btn btn-primary w-100"
+                type="submit"
+                value="Enviar"
+              />
+              <div class="contact-form-loader none">
+                <img src="./assets/spinner.svg" alt="Cargando" />
+              </div>
+
+              <div class="text-light contact-form-response none">
+                <p>Los datos se enviaron correctamente</p>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <h3 class="text-sm-center text-md-start">
+              Mis datos de contacto para DOMO
+            </h3>
+            <ul class="social d-flex justify-content-between m-0 p-0">
+              <li class="nav-link">
+                <a href="mailto:hernan24744@gmail.com"
+                  ><i class="fas fa-envelope"></i><br
+                /></a>
+              </li>
+
+              <li class="nav-link">
+                <a
+                  href="https://www.linkedin.com/in/sanchez-hernan-gabriel/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+
+              <li class="nav-link">
+                <a href="https://github.com/Hernan-99" target="_blank"
+                  ><i class="fab fa-github-square"></i
+                ></a>
+              </li>
+
+              <li class="nav-link">
+                <a
+                  href="https://portfolio-hernan-sanchez.netlify.app/"
+                  target="_blank"
+                  ><i class="fas fa-globe"></i
+                ></a>
+              </li>
+
+              <li class="nav-link">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/cv/Sanchez_Hernan_CV.pdf"
+                  ><i class="fas fa-user"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
